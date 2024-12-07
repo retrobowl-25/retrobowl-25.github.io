@@ -8,8 +8,8 @@ def replace_in_file(file_path):
             content = file.read()
 
         # Check if the target pattern exists
-        old_text = 'https://www.facebook.com/profile.php?id=100090078974214'
-        new_text = 'https://retrobowl.click/nfl-retro-bowl-25-unblocked/'
+        old_text = 'https://discord.gg/nS6QqcwU'
+        new_text = 'https://retrobowl.click/nfl-retro-bowl-25/'
         
         if old_text in content:
             # Replace occurrences of the pattern
